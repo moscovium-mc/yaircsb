@@ -17,4 +17,4 @@ YAIRCSB - Yet Another IRC Spam Bot Commands
 !spam stop                           | stop playing art
 !spam sync                           | sync the ascii database (admin only)
 
-NOTE: Admin commands are only available to darkest!*@*
+NOTE: Admin commands are only available to admin
