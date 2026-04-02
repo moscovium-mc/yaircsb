@@ -1,0 +1,20 @@
+YAIRCSB - Yet Another IRC Spam Bot Commands
+=============================================
+
+@yaircsb                             | information about yaircsb
+!spam <name>                         | play the <name> art file
+!spam bomb                           | play 10 random arts rapidly (admin only)
+!spam dirs                           | list of art directories
+!spam list                           | list of art filenames
+!spam loop <on|off>                  | loop art continuously (admin only)
+!spam play <url>                     | play the contents of <url>
+!spam random [dir]                   | play random art
+!spam repeat <1-100>                 | set repeat count (admin only)
+!spam search <query>                 | search for art files
+!spam settings                       | view settings
+!spam settings <setting> <option>    | change settings (admin only)
+!spam speed                          | show current spam speed
+!spam stop                           | stop playing art
+!spam sync                           | sync the ascii database (admin only)
+
+NOTE: Admin commands are only available to darkest!*@*
