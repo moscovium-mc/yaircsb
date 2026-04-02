@@ -9,7 +9,7 @@
 - **Speed Display** - `!spam speed` shows current lines per second, command delay, and repeat count
 - **Ban Detection & Auto-Rejoin** - Bot detects bans and attempts to rejoin with backoff
 - **Channel Mode Tracking** - Monitors +m (moderated) mode and warns before sending messages
-- **Enhanced Command Prefix** - Uses `!spam` instead of `.ascii` for a cleaner interface
+- **Command Prefix** - Uses `!spam` instead of `.ascii` for a cleaner interface
 - **Custom Help System** - Built-in `help.txt` support with fallback to hardcoded help text
 
 ### Changed Features
@@ -17,7 +17,7 @@
 - **Improved Database Sync** - Added branch support and better pagination handling
 - **Multiple Channel Support** - Can join multiple channels at once (comma-separated list)
 - **NickServ Authentication** - Fixed to send password only (no nickname required)
-- **Better Error Handling** - More graceful handling of connection issues and network errors
+- **Better Error Handling** - More handling of connection issues and network errors
 
 ### Modified Behavior
 - **Local Files Priority** - Local art files in `custom_art/` take precedence over remote files
