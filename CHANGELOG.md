@@ -7,7 +7,7 @@
 - **Spam Bomb** - Admin command `!spam bomb` unleashes 10 random arts in rapid succession
 - **Repeat Mode** - Admin command `!spam repeat <1-100>` lets you loop any art multiple times
 - **Speed Display** - `!spam speed` shows current lines per second, command delay, and repeat count
-- **Ban Detection & Auto-Rejoin** - Bot intelligently detects bans and attempts to rejoin with exponential backoff
+- **Ban Detection & Auto-Rejoin** - Bot detects bans and attempts to rejoin with exponential backoff
 - **Channel Mode Tracking** - Monitors +m (moderated) mode and warns before sending messages
 - **Enhanced Command Prefix** - Uses `!spam` instead of `.ascii` for a cleaner interface
 - **Custom Help System** - Built-in `help.txt` support with fallback to hardcoded help text
@@ -23,7 +23,7 @@
 - **Local Files Priority** - Local art files in `custom_art/` take precedence over remote files
 - **Recursive Art Scanning** - Supports nested folders in `custom_art/` directory
 - **Exact Name Matching** - `!spam <name>` now searches root directory first for exact matches
-- **Improved Admin Detection** - More robust wildcard pattern matching for admin masks
+- **Improved Admin Detection** - More wildcard pattern matching for admin masks
 
 ### Fixed Issues
 - **Hostname Detection** - Properly captures hostmask for ban detection
